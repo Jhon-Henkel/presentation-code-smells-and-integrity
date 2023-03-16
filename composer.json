@@ -1,0 +1,26 @@
+{
+    "name": "jhon/presentation",
+    "description": "Presentation of clean code and integrity test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "tests\\": "tests/"
+        },
+        "files": []
+    },
+    "scripts": {
+        "test:run": "vendor/bin/phpunit tests/unit"
+    },
+    "authors": [
+        {
+            "name": "Jhonatan Henkel",
+            "email": "jhowrf@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "kint-php/kint": "^4.1",
+        "phpunit/phpunit": "^9",
+        "mockery/mockery": "^1.5"
+    }
+}
