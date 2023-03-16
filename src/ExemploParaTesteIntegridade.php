@@ -22,7 +22,7 @@ class ExemploParaTesteIntegridade
     public function enviaNotaFiscal(): void
     {
         /**
-         * enviando nota fiscal do pedido no hub externo
+         * enviando nota fiscal do pedido no hub externo.
          * código,
          * código,
          * e mais código...
@@ -33,7 +33,7 @@ class ExemploParaTesteIntegridade
     public function registraEnvio(): void
     {
         /**
-         * registrando envio do pedido no hub externo
+         * registrando envio do pedido no hub externo.
          * código,
          * código,
          * e mais código...
@@ -43,8 +43,8 @@ class ExemploParaTesteIntegridade
 
     public function alterarStatusParaEnviado(): void
     {
-        /**
-         * alterando status do pedido no hub externo
+         /**
+         * alterando status do pedido no hub externo.
          * código,
          * código,
          * e mais código...
